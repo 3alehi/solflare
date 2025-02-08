@@ -16,7 +16,10 @@ export default function RootLayout({
     <html lang="en">
       <body
       >
+        <div className="mx-auto container">
         {children}
+
+        </div>
       </body>
     </html>
   );
