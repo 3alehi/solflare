@@ -12,6 +12,25 @@ export default {
         background:"#14161f"
    
       },
+      animation: {
+        float: 'float 4s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { 
+            transform: 'translateX(0) translateY(0)' // شروع از موقعیت صفر
+          },
+          '50%': { 
+            transform: 'translateX(-200px) translateY(200px)' // نیم‌دایره به سمت بالا و چپ
+          },
+        },
+      }
+      
+
+      ,
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
       screens: {
   			sm: '640px',
   			md: '768px',

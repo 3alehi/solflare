@@ -11,7 +11,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="bg-background " >
+      <body className="bg-background font-inter " >
         <div className="mx-auto container bg-background text-white ">
           
         <NavBar/>
